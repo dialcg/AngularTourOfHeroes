@@ -1,0 +1,38 @@
+h2 {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+.heroes {
+    width: 100%;
+}
+
+    .heroes__hero {
+        display: inline-block;
+        text-align: center;
+        width: 33.33%;
+    }
+        .heroes__hero--selected {
+            background-color: rgb(231, 231, 231);
+        }
+
+        .heroes__hero .hero__info {
+            width: 70%;
+            display: inline-block;
+            text-align: left;
+            vertical-align: super;
+        }
+
+            .heroes__hero .hero__info .hero__info__name {
+                display: block;
+                font-size: 1.5em;
+            }
+        
+        .heroes__hero .hero__image {
+            width: 30%;
+            display: inline-block;
+        }
+            .heroes__hero .hero__image img {
+                width: 40%;
+            }
+            
