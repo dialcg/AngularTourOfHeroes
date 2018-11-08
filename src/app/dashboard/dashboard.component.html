@@ -1,0 +1,12 @@
+<h2>My Heroes</h2>
+<div class="heroes">
+  <div class="heroes__hero" *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}">
+    <div class="hero__image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXlpmfSrgRiUrfakb7cGZ5fN-M_50Jn6ynZ2WVBHHeJ7hzS0DZ" />
+    </div>
+    <div class="hero__info">
+      <span class="hero__info__name">{{hero.name}}</span>
+    </div>
+  </div>
+</div>
+<app-hero-search></app-hero-search>
